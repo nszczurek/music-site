@@ -1,9 +1,10 @@
 
 body{ 
-    background-image:url(https://damacouture.com/cdn/shop/files/Wedding-dress-Sanah_dama_couture_1.jpg?v=1689427877);
+    background-image:url(https://damacouture.com/cdn/shop/files/Wedding-dress-Sanah_dama_couture_1_360x.jpg?v=1689427877);
 
     background-repeat: no-repeat;
-    background-attachment: fixed;  
+    background-attachment: fixed; 
+    background-size: cover;
 }
 
 #name{
@@ -14,4 +15,13 @@ body{
 #bio{
     padding: 18px;
     background-color: rgba(255, 228, 196, 0.534);
+}
+
+table, th, td{
+    border: 20px black;
+    background-color: rgba(95, 158, 160, 0.411);
+}
+
+.form{
+    background-color:rgba(255, 235, 205, 0.253)
 }
